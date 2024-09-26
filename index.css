@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    background-color: sienna; 
+}
+
+.header{
+    text-align: center;
+    padding: 15px 20px;
+    background-color: rgb(39, 39, 39);
+    color: wheat;
+}
+
+.container{
+    padding:50px ;
+}
+
+.card{
+    margin: 50px auto;
+}
+
+.btn{
+    border: 0px;
+    transition: 0.2s;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(236, 175, 147);
+    letter-spacing: 0.4px;
+    color: black;
+    box-shadow: 1px 3px 3px gray;
+}
+
+.btn:active{
+    background-color: rgb(236, 175, 147);
+    letter-spacing: 0.4px;
+    color: black;
+    box-shadow: 1px 3px 3px gray;
+}
+
+.footer{
+    margin:auto;
+    width: 100%;
+    text-align:end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width:380px) {
+
+.container{
+    padding:50px 0px;
+}
+
+    .card{
+        margin:50px auto !important;
+    }
+}
+
+@media screen and (max-width:300px) {
+
+    .card{
+        margin:50px auto !important;
+        width:90% !important;
+    }
+}
